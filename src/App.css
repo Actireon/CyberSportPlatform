@@ -8,3 +8,12 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #fafafa;
 }
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1484px;
+  height: 735px;
+  margin: 60px auto;
+  justify-content: space-around;
+}

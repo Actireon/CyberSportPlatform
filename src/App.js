@@ -1,28 +1,38 @@
 import React, { Component } from 'react';
 import Header from './components/Header/Header';
-import Matches from './components/Matches/Matches'
+import Matches from './components/Matches/Matches';
+import Battles from './components/Battles/Battles';
 
 import './App.css';
 
 
 class App extends Component {
   state = {
-    isClicked: true,
+    isToggled: true,
   }
 
-  // clickHandler = () => {
-  //   this.setState(prevState => ({
-  //     isClicked: !prevState.isClicked
-  //  }));
-  // }
+  showMatches = () => {
+    this.setState({
+      isToggled: true
+    })
+  }
+
+  showBattles = () => {
+    this.setState({
+      isToggled: false
+    })
+  }
 
   render() {
+    const { isToggled } = this.state;
+
     return (
       <>
-        <Header />
-        <Matches />
+        <Header show={isToggled} showBattles={this.showBattles} showMatches={this.showMatches}/>
+        <main className="main">
+          {isToggled ? <Matches /> : <Battles />}
+        </main>
       </>
-      // isClicked ? <Matches /> : <Battles />
     );
   }
 }

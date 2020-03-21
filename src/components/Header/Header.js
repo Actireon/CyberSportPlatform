@@ -4,14 +4,14 @@ import Button from './Button/Button';
 
 import './Header.scss';
 
-const Header = ({ onClick }) => {
+const Header = ({ showMatches, showBattles, show }) => {
   return (
     <div className="header">
       <div className="header__logo">
         <Logo width={'350'} height={'400'}/>
       </div>
       <h1 className="header__title">Make me up!</h1>
-      <Button onClick={onClick} />
+      <Button show={show} showMatches={showMatches} showBattles={showBattles} />
     </div>
   );
 };
