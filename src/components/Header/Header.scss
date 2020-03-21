@@ -1,0 +1,20 @@
+.header {
+  background: url('../../images/header/header-bg.png') no-repeat;
+  background-size: cover;
+  height: 375px;
+
+  &__logo {
+    position: absolute;
+    top: -30px;
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 100%;
+    color: #fff;
+    padding: 122px 0 0 208px;
+    position: relative;
+  }
+}

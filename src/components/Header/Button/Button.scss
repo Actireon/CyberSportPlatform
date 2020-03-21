@@ -1,0 +1,36 @@
+.button {
+  padding: 95px 0 0 216px;
+  position: relative;
+  width: 733px;
+
+  &__active,
+  &__not-active {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    border: 0;
+    padding: 19px 45px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__active {
+    background: #ff5e5e;
+    color: #fff;
+  }
+
+  &__not-active {
+    background: transparent;
+    color: #8f9a9d;
+
+    &:hover {
+      cursor: pointer;
+      color: #fff;
+    }
+  }
+}

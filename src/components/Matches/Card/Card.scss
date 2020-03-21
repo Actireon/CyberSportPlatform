@@ -1,0 +1,134 @@
+.card {
+  width: 336px;
+  height: 350px;
+  background-color: #fff;
+
+  &__caption {
+    letter-spacing: 0.01em;
+    color: #8f9a9d;
+    padding: 25px 0 0 25px;
+  }
+
+  &__header {
+    display: flex;
+  }
+
+  &__star-red {
+    background-image: url(../../../images/card-star-red.png);
+  }
+
+  &__star-silver {
+    background-image: url(../../../images/card-star-silver.png);
+  }
+
+  &__star-gray {
+    background-image: url(../../../images/card-star-gray.png);
+  }
+
+  &__star-red,
+  &__star-silver,
+  &__star-gray {
+    background-repeat: no-repeat;
+    width: 182px;
+    height: 164px;
+    position: relative;
+    right: -3px;
+  }
+
+  &__play {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+
+  &__live {
+    position: absolute;
+    top: 72px;
+    right: 20px;
+    letter-spacing: 0.06em;
+    color: #fff;
+  }
+
+  &__data {
+    position: absolute;
+    top: 72px;
+    right: 30px;
+    letter-spacing: 0.01em;
+    color: #8f9a9d;
+  }
+
+  &__teams {
+    padding: 0 0 10px 25px;
+  }
+
+  &__team2 {
+    margin-left: 15px;
+  }
+
+  &__players {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+  }
+
+  &__player,
+  &__time,
+  &__score-win,
+  &__score-lose {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    color: #282830;
+  }
+
+  &__score-lose--g,
+  &__player--g,
+  &__time--g {
+    color: #8f9a9d;
+  }
+
+  &__score-win,
+  &__score-lose {
+    padding: 1px 13px;
+  }
+
+  &__rate {
+    background-color: #fafafa;
+    padding: 1px 13px;
+    text-align: center;
+    border: 1px solid rgba(151, 151, 151, 0.1);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #282830;
+
+    &:first-child {
+      margin-bottom: 14px;
+    }
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 25px 0 25px;
+  }
+
+  &__info {
+    letter-spacing: 0.01em;
+    color: #8f9a9d;
+    transform: translate(0, -6px);
+  }
+
+  &__caption,
+  &__live,
+  &__info,
+  &__data {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
