@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/CyberSportPlatform/static/css/main.ec35e3ad.chunk.css",
+    "main.js": "/CyberSportPlatform/static/js/main.ec15478c.chunk.js",
+    "main.js.map": "/CyberSportPlatform/static/js/main.ec15478c.chunk.js.map",
+    "runtime-main.js": "/CyberSportPlatform/static/js/runtime-main.c928e4c5.js",
+    "runtime-main.js.map": "/CyberSportPlatform/static/js/runtime-main.c928e4c5.js.map",
+    "static/js/2.533aab41.chunk.js": "/CyberSportPlatform/static/js/2.533aab41.chunk.js",
+    "static/js/2.533aab41.chunk.js.map": "/CyberSportPlatform/static/js/2.533aab41.chunk.js.map",
+    "index.html": "/CyberSportPlatform/index.html",
+    "precache-manifest.7440887d2e4a849f77c0a7195fbbd6ae.js": "/CyberSportPlatform/precache-manifest.7440887d2e4a849f77c0a7195fbbd6ae.js",
+    "service-worker.js": "/CyberSportPlatform/service-worker.js",
+    "static/css/main.ec35e3ad.chunk.css.map": "/CyberSportPlatform/static/css/main.ec35e3ad.chunk.css.map",
+    "static/js/2.533aab41.chunk.js.LICENSE.txt": "/CyberSportPlatform/static/js/2.533aab41.chunk.js.LICENSE.txt",
+    "static/media/Card.scss": "/CyberSportPlatform/static/media/card-star-silver.400c697f.png",
+    "static/media/ggbet.d267a247.svg": "/CyberSportPlatform/static/media/ggbet.d267a247.svg",
+    "static/media/Header.scss": "/CyberSportPlatform/static/media/header-bg.4ee68a42.png",
+    "static/media/header-logo.4e6c8330.svg": "/CyberSportPlatform/static/media/header-logo.4e6c8330.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c928e4c5.js",
+    "static/js/2.533aab41.chunk.js",
+    "static/css/main.ec35e3ad.chunk.css",
+    "static/js/main.ec15478c.chunk.js"
+  ]
+}
