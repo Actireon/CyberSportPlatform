@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3b60711e28d103901283b24d97b613a0",
+    "revision": "29420e95f344c207815d531b44c90403",
     "url": "/CyberSportPlatform/index.html"
   },
   {
-    "revision": "309571aa3d8313522854",
-    "url": "/CyberSportPlatform/static/css/main.603ce990.chunk.css"
+    "revision": "d3b39635259af2eee67a",
+    "url": "/CyberSportPlatform/static/css/main.8e604354.chunk.css"
   },
   {
     "revision": "8923e6ed62237ee19221",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CyberSportPlatform/static/js/2.c4a66e67.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "309571aa3d8313522854",
-    "url": "/CyberSportPlatform/static/js/main.c4ed065e.chunk.js"
+    "revision": "d3b39635259af2eee67a",
+    "url": "/CyberSportPlatform/static/js/main.ce74397d.chunk.js"
   },
   {
     "revision": "fcf53ac81f323e25999e",
     "url": "/CyberSportPlatform/static/js/runtime-main.c928e4c5.js"
+  },
+  {
+    "revision": "dab7d4c641aea0e500d90bb8fa8d1bc4",
+    "url": "/CyberSportPlatform/static/media/bg-mobile.dab7d4c6.png"
   },
   {
     "revision": "400c697f4ab4f776b621fb351b662500",

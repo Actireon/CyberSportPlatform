@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/CyberSportPlatform/precache-manifest.677148b6e244c62afce08e28cc13a1b6.js"
+  "/CyberSportPlatform/precache-manifest.963fa96c813654c7f0e7ca103dafdcc5.js"
 );
 
 self.addEventListener('message', (event) => {
