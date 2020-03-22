@@ -1,3 +1,5 @@
+@import "../../utils/vars";
+
 .header {
   background: url('../../images/header/header-bg.png') no-repeat;
   background-size: cover;
@@ -13,7 +15,7 @@
     font-weight: bold;
     font-size: 100px;
     line-height: 100%;
-    color: #fff;
+    color: $c-white;
     padding: 122px 0 0 208px;
     position: relative;
   }

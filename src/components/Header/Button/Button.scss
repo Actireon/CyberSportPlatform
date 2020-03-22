@@ -1,8 +1,10 @@
+@import "../../../utils/vars";
+
 .button {
   padding: 95px 0 0 216px;
   position: relative;
   top: -2px;
-  border-bottom: 2px solid #ff5e5e;
+  border-bottom: 2px solid $c-red;
 
   &__active,
   &__not-active {
@@ -22,17 +24,17 @@
   }
 
   &__active {
-    background: #ff5e5e;
-    color: #fff;
+    background: $c-red;
+    color: $c-white;
   }
 
   &__not-active {
     background: transparent;
-    color: #8f9a9d;
+    color: $c-dark-gray;
 
     &:hover {
       cursor: pointer;
-      color: #fff;
+      color: $c-white;
     }
   }
 }

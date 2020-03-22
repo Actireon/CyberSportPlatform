@@ -1,0 +1,90 @@
+@mixin card {
+  width: 336px;
+  height: 350px;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+
+  &:first-of-type {
+    border: 1px solid #ff5e5e;
+  }
+}
+
+@mixin caption {
+  &__caption {
+    letter-spacing: 0.01em;
+    color: #8f9a9d;
+    padding: 25px 0 0 25px;
+  }
+}
+
+@mixin stars {
+  &__header {
+    display: flex;
+  }
+
+  &__star-red {
+    background-image: url(../images/card-star-red.png);
+  }
+
+  &__star-silver {
+    background-image: url(../images/card-star-silver.png);
+  }
+
+  &__star-gray {
+    background-image: url(../images/card-star-gray.png);
+  }
+}
+
+@mixin star-size {
+  background-repeat: no-repeat;
+  width: 182px;
+  height: 164px;
+  position: relative;
+}
+
+@mixin play {
+  &__play {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    transition: 0.5s ease-in-out;
+
+    &:hover {
+      transition: 0.5s ease;
+      transform: scale(1.2);
+    }
+  }
+}
+
+@mixin live {
+  &__live {
+    position: absolute;
+    top: 72px;
+    right: 20px;
+    letter-spacing: 0.06em;
+    color: #fff;
+  }
+}
+
+@mixin data {
+  position: absolute;
+  right: 30px;
+  letter-spacing: 0.01em;
+  color: #8f9a9d;
+}
+
+@mixin h5-text-style {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  color: #282830;
+}
+
+@mixin caption-text-style {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}

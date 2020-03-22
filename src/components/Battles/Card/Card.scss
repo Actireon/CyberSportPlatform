@@ -1,72 +1,24 @@
+@import "../../../utils/mixins";
+@import "../../../utils/vars";
+
 .card-battles {
-  width: 336px;
-  height: 350px;
-  margin-top: 20px;
-  background-color: #fff;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
-
-  &:first-of-type {
-    border: 1px solid #ff5e5e;
-  }
-
-  &__caption {
-    letter-spacing: 0.01em;
-    color: #8f9a9d;
-    padding: 25px 0 0 25px;
-  }
-
-  &__header {
-    display: flex;
-  }
-
-  &__star-red {
-    background-image: url(../../../images/card-star-red.png);
-  }
-
-  &__star-silver {
-    background-image: url(../../../images/card-star-silver.png);
-  }
-
-  &__star-gray {
-    background-image: url(../../../images/card-star-gray.png);
-  }
+  @include card;
+  @include caption;
+  @include stars;
 
   &__star-red,
   &__star-silver,
   &__star-gray {
-    background-repeat: no-repeat;
-    width: 182px;
-    height: 164px;
-    position: relative;
+    @include star-size;
     right: -51px;
   }
 
-  &__play {
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    transition: 0.5s ease-in-out;
-
-    &:hover {
-      transition: 0.5s ease;
-      transform: scale(1.2);
-    }
-  }
-
-  &__live {
-    position: absolute;
-    top: 72px;
-    right: 20px;
-    letter-spacing: 0.06em;
-    color: #fff;
-  }
+  @include play;
+  @include live;
 
   &__data {
-    position: absolute;
+    @include data;
     top: 65px;
-    right: 30px;
-    letter-spacing: 0.01em;
-    color: #8f9a9d;
   }
 
   &__pubg {
@@ -81,11 +33,7 @@
 
   &__group,
   &__time {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 35px;
-    color: #282830;
+    @include h5-text-style;
   }
 
   &__group:first-child {
@@ -102,7 +50,7 @@
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.06em;
-    color: #8F9A9D;
+    color: $c-dark-gray;
   }
 
   &__footer {
@@ -112,7 +60,7 @@
 
   &__info {
     letter-spacing: 0.01em;
-    color: #8f9a9d;
+    color: $c-dark-gray;
     transform: translate(0, -2px);
 
     &--margin {
@@ -124,10 +72,7 @@
   &__live,
   &__info,
   &__data {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 20px;
+    @include caption-text-style;
   }
 }
 
