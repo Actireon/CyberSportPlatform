@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "29420e95f344c207815d531b44c90403",
+    "revision": "8069ca790e18d8f39bb0fe73eb2bdc3f",
     "url": "/CyberSportPlatform/index.html"
   },
   {
-    "revision": "d3b39635259af2eee67a",
-    "url": "/CyberSportPlatform/static/css/main.8e604354.chunk.css"
+    "revision": "a076e00911998c7e8733",
+    "url": "/CyberSportPlatform/static/css/main.4206429d.chunk.css"
   },
   {
     "revision": "8923e6ed62237ee19221",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CyberSportPlatform/static/js/2.c4a66e67.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d3b39635259af2eee67a",
+    "revision": "a076e00911998c7e8733",
     "url": "/CyberSportPlatform/static/js/main.ce74397d.chunk.js"
   },
   {
