@@ -3,7 +3,7 @@ import Header from './components/Header/Header';
 import Matches from './components/Matches/Matches';
 import Battles from './components/Battles/Battles';
 
-import './App.css';
+import './App.scss';
 
 
 class App extends Component {

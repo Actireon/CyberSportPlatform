@@ -18,3 +18,57 @@
     position: relative;
   }
 }
+
+@media (max-width: 1650px) {
+  .header {
+    background-repeat: round;
+  }
+}
+
+@media (max-width: 1000px) {
+  .header {
+    height: 335px;
+
+    &__title {
+      padding: 100px 0 0 40px;
+    }
+
+    &__logo {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 690px) {
+  .header {
+    height: 305px;
+
+    &__title {
+      font-size: 75px;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .header {
+    background: url('../../images/header/bg-mobile.png') no-repeat;
+    background-size: cover;
+    height: 277px;
+
+    &__title {
+      font-size: 55px;
+      padding: 100px 0 0 22px;
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .header {
+    height: 240px;
+
+    &__title {
+      font-size: 48px;
+      padding: 87px 0 0 16px;
+    }
+  }
+}

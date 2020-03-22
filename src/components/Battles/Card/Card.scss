@@ -1,7 +1,13 @@
 .card-battles {
   width: 336px;
   height: 350px;
+  margin-top: 20px;
   background-color: #fff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+
+  &:first-of-type {
+    border: 1px solid #ff5e5e;
+  }
 
   &__caption {
     letter-spacing: 0.01em;
@@ -39,6 +45,12 @@
     position: absolute;
     top: 30px;
     right: 30px;
+    transition: 0.5s ease-in-out;
+
+    &:hover {
+      transition: 0.5s ease;
+      transform: scale(1.2);
+    }
   }
 
   &__live {
@@ -95,7 +107,7 @@
 
   &__footer {
     display: flex;
-    margin: 20px 25px 0 25px;
+    padding: 20px 25px 0 25px;
   }
 
   &__info {
@@ -116,5 +128,81 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 20px;
+  }
+}
+
+@media (max-width: 730px) {
+  .card-battles {
+    width: 374px;
+    height: 250px;
+
+    &__caption {
+      padding: 15px 0 0 25px;
+    }
+
+    &__star-red {
+      right: -98.5px;
+      top: -1px;
+    }
+
+    &__star-silver,
+    &__star-gray {
+       right: -99.5px;
+    }
+
+    &__groups {
+      position: relative;
+      top: -77px;
+    }
+
+    &__pubg {
+      position: relative;
+      top: -95px;
+    }
+
+    &__play {
+      top: 20px;
+    }
+
+    &__live {
+      font-size: 12px;
+      font-weight: bold;
+      top: 63px;
+      width: 54px;
+      text-align: center;
+      line-height: 15px;
+    }
+
+    &__footer {
+      position: relative;
+      top: -85px;
+    }
+
+    &__caption,
+    &__groups,
+    &__pubg,
+    &__footer {
+      padding-left: 15px;
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .card-battles {
+    &__star-red,
+    &__star-silver,
+    &__star-gray {
+      right: -84.5px;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .card-battles {
+    &__star-red,
+    &__star-silver,
+    &__star-gray {
+      right: -44.5px;
+    }
   }
 }
